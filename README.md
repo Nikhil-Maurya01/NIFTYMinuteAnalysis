@@ -1,4 +1,4 @@
-MarketMinute Analytics
+Nifty Minute Analytics
 =======================
 
 MarketMinute Analytics is a Spark-powered data analysis project designed to uncover time-based insights from minute-level financial market data. It focuses on identifying intraday price trends, volatility patterns, and trading behaviors using PySpark for scalable data processing and Plotly for interactive visualizations.
