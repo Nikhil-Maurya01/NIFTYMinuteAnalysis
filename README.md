@@ -19,7 +19,7 @@ Features
 - Interactive Visualizations: Uses Plotly to generate dynamic charts including line plots, heatmaps, histograms, and box plots.
 - Custom Date Filtering: Analyze specific trading days to explore intraday price movements.
 
-Key Analyses
+Key Analysis
 ------------
 1. Average Close Price per Hour: Understand how prices behave across different hours of the trading day.
 2. Maximum Volatility per Day: Identify the most volatile trading days for risk assessment.
@@ -27,8 +27,6 @@ Key Analyses
 4. Hourly Price Trend for Selected Date: Zoom into specific dates to analyze intraday price behavior.
 5. Daily Average Close Trend: Track market performance over time.
 6. Heatmap of Hourly Volatility: Visualize volatility patterns across hours and days.
-7. Volatility Distribution: Explore the spread and frequency of volatility values.
-8. Box Plot of Close Prices by Hour: Examine price variation and outliers across trading hours.
 
 Technologies Used
 -----------------
@@ -44,6 +42,29 @@ How to Run
 3. Run the script:
    python market_minute_analysis.py
 
+## Output Example
+
+The following visualizations were created using Plotly. These plots provide insights into asset price behavior across different time scales:
+
+### 1. Daily Average Close Price Over Time
+- **Description**: Line graph showing the daily average close price from 2015 to 2024.
+- **Insight**: Reveals a general upward trend with periodic fluctuations, indicating long-term growth with market variability.
+
+![Result Image1](/outputs/output1.png)
+
+### 2. Hourly Price Trend on 2025-07-25
+- **Description**: Line graph depicting hourly average close prices for a single trading day.
+- **Insight**: Shows a downward trend throughout the day, suggesting bearish sentiment or intraday selling pressure.
+
+![Result Image2](/outputs/output2.png)
+
+### 3. Heatmap of Hourly Volatility Across Days
+- **Description**: Heatmap visualizing hourly volatility across multiple days.
+- **Insight**: Highlights periods of high and low volatility, useful for identifying active trading hours and risk zones.
+
+![Result Image3](/outputs/output3.png)
+
 Contact
 -------
 For questions or collaboration, feel free to reach out via GitHub Issues.
+
