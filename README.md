@@ -1,7 +1,16 @@
 Nifty Minute Analytics
-=======================
+======================
+
+![Python](https://img.shields.io/badge/Python-3.9%2B-blue.svg?style=for-the-badge&logo=python&logoColor=ffdd54)
+![PySpark](https://img.shields.io/badge/PySpark-ETL-orange.svg?style=for-the-badge&logo=python&logoColor=ffdd54)
+![Plotly](https://img.shields.io/badge/Plotly-Visualization-blueviolet.svg?style=for-the-badge&logo=plotor=white)
+![Pandas](https://img.shields.io/badge/Pandas-DataFrame-black.svg?style=for-the-badge&logo=pandas&logoe)
+![License](https://img.shields.io/badge/License-MIT-green.svg?style=for-the-badge&logo=&logoColor=ffdd54)
+
 
 MarketMinute Analytics is a Spark-powered data analysis project designed to uncover time-based insights from minute-level financial market data. It focuses on identifying intraday price trends, volatility patterns, and trading behaviors using PySpark for scalable data processing and Plotly for interactive visualizations.
+
+--------
 
 Features
 --------
